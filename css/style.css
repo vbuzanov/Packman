@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 99.5vh;
+    background-color: rgb(163, 231, 222);
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+}
+#pakman{
+    width:30px;
+    height:30px;
+    background: yellow;
+    border-radius:50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+#mouthPakm{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 20px solid rgb(163, 231, 222);
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.bigMouthPakm{
+    border-top: 12px solid transparent !important;
+    border-bottom: 12px solid transparent !important;
+    top: 3px !important;
+}
+#apple{
+    display: none;
+    width: 14px;
+    height: 16px;
+    position: absolute;
+    color: rgba(255, 0, 0);
+    z-index: 2;
+}
